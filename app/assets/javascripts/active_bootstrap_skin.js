@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).on('turbolinks:load', function()  {
   // Add meta view port
   $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1">');
 

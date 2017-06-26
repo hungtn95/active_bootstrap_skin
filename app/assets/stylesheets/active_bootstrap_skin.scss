@@ -115,11 +115,11 @@
   @extend .clearfix;
 
   #titlebar_left {
-    @extend .pull-left;
+    @extend .float-left;
   }
 
   #titlebar_right {
-    @extend .pull-right;
+    @extend .float-right;
   }
 
   .action_item a {

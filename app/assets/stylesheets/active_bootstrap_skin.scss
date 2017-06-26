@@ -137,7 +137,7 @@
   }
 
   .buttons {
-    input, a { @extend .btn; @extend .btn-default; }
+    input, a { @extend .btn; @extend .btn-secondary; }
     input[type="submit"] { @extend .btn-primary; }
   }
 }
@@ -179,7 +179,7 @@ ul.scopes {
     list-style-type: none;
     margin-bottom: 4px;
   }
-  li.scope a{ @extend .btn; @extend .btn-default; }
+  li.scope a{ @extend .btn; @extend .btn-secondary; }
   li.scope.selected a { @extend .btn-primary; }
 }
 
@@ -249,7 +249,7 @@ form {
     li {
       display: inline-block;
 
-      input, a { @extend .btn; @extend .btn-default; }
+      input, a { @extend .btn; @extend .btn-secondary; }
       input[type="submit"] { @extend .btn-primary; }
     }
   }
